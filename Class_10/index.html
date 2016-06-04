@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM - Document Object Manager</title>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div>
+		<h2>Bootcamp</h2>
+		<p id="contenido" class="texto">Padres e Hijos para DOM</p> <!-- agregar dos items a traves de consola -->
+		<h2>No sabia que ponerme y me puse feliz</h2>
+		<ul>
+  			<li>Don't underestimate the force</li>
+  			<li>Today will be a day long remembered.</li>
+		</ul>
+	</div>
+	<ul>
+        <li>Matrix</li>
+        <li>Blade Runner</li>
+        <li>Fifth element</li>
+    </ul>
+    <ul>
+        <li>Ghost in the Shell</li>
+        <li>Lain</li>
+        <li>Paprika</li>
+    </ul>
+</body>
+</html>
+
+<!-- Añadir una lista en consola.
+1. var lista=document.createElement("ul");			crea una lista ordenada
+2. var elemento1=document.createElement("li");		crea atributo de la lista
+3. var texto1=document.createElement("claudia");	crea partes de la lista
+4. element1.appendChild(texto1);					agrega elemento a la lista
+5. lista.appendChild(elemento1);					agrega la lista a un orden
+6. document.body.appendChild(lista); 
+-*-*-*-*-*-*-*-
+para eliminar un atributo, toca hacerlo desde padre 
+parrafo.parentNode.removeChild(parrafo);
+ul[0].parentNode.removeChild(ul[0]);				elimina una lista eligiendo un elemento en especial
+<ul>​…​</ul>​
+-->

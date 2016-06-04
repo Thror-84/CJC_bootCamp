@@ -1,0 +1,23 @@
+/*Simbolo # llama los header*/
+#header {
+	background-color: blue;
+	color: white;
+}
+#color-verde{
+	background-color: green;
+}
+
+.color-amarillo{
+	background-color: yellow;
+}
+
+.color-rojo{
+	background-color: red;
+}
+tr{
+	background-color: purple;
+}
+#imagen{
+	height: 10em;
+	width: 20em;
+}

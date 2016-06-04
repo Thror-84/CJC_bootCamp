@@ -1,0 +1,41 @@
+/*Cuadros de marcos*/
+
+#agrego{
+  height: 200px;
+  width: 200px;
+  background-color: #E84B0C;
+  position: relative;
+  left: 100px;
+  top: 150px;
+​
+}
+​
+#retiro{
+  height: 200px;
+  width: 200px;
+  background-color: #9C1A00;
+  position: relative;
+  left: 100px;
+  top: 	400px;
+​
+}
+#miLista{
+  height: 6	00px;
+  width: 350px;
+  background-color: #0F9C64;
+  position: relative;
+  left: 320px;
+  top: 150px;
+​
+}
+
+/*------textos------*/
+
+/*p h1 h2{
+	font-family: Helvetica,sans-Serif;
+}*/
+td{
+	height: 40px;
+	width: 200px;
+	border: solid #5A6961;	
+}
